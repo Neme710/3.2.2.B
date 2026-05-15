@@ -3,4 +3,4 @@ from Post import Post
 
 all_posts_archive = []
 
-username = 
+username = input("Please input youyr user name here - ")
