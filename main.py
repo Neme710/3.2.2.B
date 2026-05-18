@@ -4,6 +4,7 @@ all_posts_archive = []
 usernames = ["aiden", "aidan", "aden", "adan"]
 new_post():
   new_post_input = input("New Post's txt here --")
+  Post(username, new_post_input)
 
   
 
