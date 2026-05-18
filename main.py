@@ -3,7 +3,9 @@ from Post import Post
 all_posts_archive = []
 usernames = ["aiden", "aidan", "aden", "adan"]
 new_post():
-  pass
+  new_post_input = input("New Post's txt here --")
+
+  
 
 remove_post():
   pass
