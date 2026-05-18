@@ -5,7 +5,7 @@ usernames = ["aiden", "aidan", "aden", "adan"]
 
 def new_post():
   new_post_input = input("New Post's txt here --")
-  all_post_archive.append(Post(username, new_post_input))
+  all_posts_archive.append(Post(username, new_post_input))
   #Dont know the proper sytenx for the post method
                           
 def remove_post():
@@ -27,4 +27,5 @@ while username in usernames:
       remove_post()
     case _:
       print("Wrong input")
-  print (all_post_archive)
+  for index, value in enumerate(all_posts_archive):
+      print(f"Index: {index}, Value: {value}")
